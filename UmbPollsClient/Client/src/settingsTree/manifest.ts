@@ -109,7 +109,7 @@ const workspaceView: UmbExtensionManifest =
     type: 'workspaceView',
     name: 'Polls Workspace View',
     alias: 'polls.workspaceView',
-    element: () => import('../workspace/polls-workspace-view.js'),
+    js: () => import('../workspace/polls-workspace-view.js'),
     weight: 900,
     meta: {
         label: 'Polls Workspace View',
