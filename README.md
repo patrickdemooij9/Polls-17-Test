@@ -1,4 +1,5 @@
 ## Test website credentials
 
-user: test@dummy.com
+user: test<span>@</span>dummy.com
+
 pwd: 1234567890
